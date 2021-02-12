@@ -34,5 +34,6 @@ For further reference, please consider the following sections:
 Pablo Andres Agudelo Marenco – pablo2394@gmail.com
 
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.2/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.2/maven-plugin/reference/html/#build-image)
+* [Lombok](https://projectlombok.org/features/all)
+* [JavaTuples](https://www.javatuples.org/)
 
