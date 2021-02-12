@@ -1,4 +1,4 @@
-package com.javachallenge.tenpinbowling.filereader;
+package com.javachallenge.tenpinbowling.utils.filereader;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

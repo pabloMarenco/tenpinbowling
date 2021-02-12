@@ -1,4 +1,4 @@
-package com.javachallenge.tenpinbowling.filereader;
+package com.javachallenge.tenpinbowling.utils.filereader;
 
 import java.util.List;
 

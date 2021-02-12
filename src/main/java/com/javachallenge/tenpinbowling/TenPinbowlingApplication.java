@@ -1,5 +1,6 @@
 package com.javachallenge.tenpinbowling;
 
+import com.javachallenge.tenpinbowling.services.BowlingMachineService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
