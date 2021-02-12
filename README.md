@@ -1,7 +1,12 @@
 
 # TEN PIN BOWLING
 
-* This is a greenfield project  
+* This is a greenfield project designed to test your knowledge of back-end web technologies, specifically in
+Java and assess your ability to create back-end products with attention to details, standards,
+and reusability.
+
+* The program should read the input text file and parse its content, which should have the
+results for several players bowling 10 frames each.
 
 ## Pre-requisites
 
