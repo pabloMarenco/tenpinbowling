@@ -12,7 +12,7 @@ public class TenPinbowlingApplication {
 	public static void main(String[] args) throws IOException {
 		ApplicationContext applicationContext = SpringApplication.run(TenPinbowlingApplication.class, args);
 		BowlingMachineService bowlingMachineService = applicationContext.getBean(BowlingMachineService.class);
-		bowlingMachineService.run();
+		bowlingMachineService.run(args);
 	}
 
 }

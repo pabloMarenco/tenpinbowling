@@ -5,7 +5,6 @@ import com.javachallenge.tenpinbowling.entities.Frame;
 import com.javachallenge.tenpinbowling.entities.Pinfalls;
 import com.javachallenge.tenpinbowling.utils.filereader.FileReader;
 import com.javachallenge.tenpinbowling.utils.printers.FilePrinter;
-import com.javachallenge.tenpinbowling.utils.printers.FilePrinterConsole;
 import com.javachallenge.tenpinbowling.utils.validators.GameValidator;
 import org.javatuples.Pair;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,8 +30,10 @@ public class BowlingMachineService {
     @Autowired
     FilePrinter filePrinter;
 
-    public void run() {
-        List<String> scores = fileReader.readLines();
+    public void run(String[] args) {
+        String filePath = args[0].toString();
+
+        List<String> scores = fileReader.readLines(filePath);
         Pair<Boolean, Map<String, List<Pinfalls>>> playersPoints = gameValidatorStrict.validateGame(scores);
         if(playersPoints.getValue0()){
             filePrinter.printScoreBoard(calculateGame(playersPoints.getValue1()));

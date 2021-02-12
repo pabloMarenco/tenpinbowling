@@ -1,6 +1,5 @@
 package com.javachallenge.tenpinbowling.utils.validators;
 
-import com.javachallenge.tenpinbowling.entities.Frame;
 import com.javachallenge.tenpinbowling.entities.Pinfalls;
 import org.javatuples.Pair;
 

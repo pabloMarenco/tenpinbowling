@@ -1,9 +1,6 @@
 package com.javachallenge.tenpinbowling.utils.builders;
 
 import com.javachallenge.tenpinbowling.entities.Pinfalls;
-import lombok.Builder;
-
-import java.security.PublicKey;
 
 public class PinfallsBuilder {
 

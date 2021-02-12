@@ -13,13 +13,11 @@ import java.util.Scanner;
 @Qualifier("FileReaderScanner")
 public class FileReaderTxt implements FileReader {
 
-    private static String GAME_POINTS= "src/main/resources/game.txt";
-
-    public final List<String> readLines(){
+    public final List<String> readLines(String filePath){
         List<String> result = new ArrayList<>();
         Scanner inFile1 = null;
         try {
-            inFile1 = new Scanner(new File(GAME_POINTS)).useDelimiter(",\\s*");
+            inFile1 = new Scanner(new File(filePath)).useDelimiter(",\\s*");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
